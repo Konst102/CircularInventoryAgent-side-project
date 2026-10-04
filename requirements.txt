@@ -1,0 +1,8 @@
+# Core
+aiohttp>=3.9.0
+
+# Web server
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+
+# No additional ML dependencies — uses cloud API (Qwen-VL-Max via DashScope)
