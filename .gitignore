@@ -1,0 +1,27 @@
+# Environment secrets
+.env
+*.env
+
+# Runtime data
+data/
+uploads/
+*.db
+*.db-journal
+
+# Logs
+*.log
+notifications.log
+errors.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
